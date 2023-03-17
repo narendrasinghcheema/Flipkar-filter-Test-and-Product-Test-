@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-17T14:21:34 IST" name="Default suite" finished-at="2023-03-17T14:22:09 IST" duration-ms="35808">
+    <groups>
+    </groups>
+    <test started-at="2023-03-17T14:21:34 IST" name="Default test" finished-at="2023-03-17T14:22:09 IST" duration-ms="35808">
+      <class name="ActualtestCases.Data_From_Locators">
+        <test-method signature="test_FilterBy_Money()[pri:0, instance:ActualtestCases.Data_From_Locators@f9879ac]" started-at="2023-03-17T14:21:34 IST" name="test_FilterBy_Money" finished-at="2023-03-17T14:22:04 IST" duration-ms="30023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_FilterBy_Money -->
+        <test-method signature="Test_FilterBy_Searching_invalid_Brands()[pri:1, instance:ActualtestCases.Data_From_Locators@f9879ac]" started-at="2023-03-17T14:22:04 IST" name="Test_FilterBy_Searching_invalid_Brands" finished-at="2023-03-17T14:22:04 IST" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_FilterBy_Searching_invalid_Brands -->
+        <test-method signature="Test_FilterBy_Searching_valid_Brands()[pri:2, instance:ActualtestCases.Data_From_Locators@f9879ac]" started-at="2023-03-17T14:22:04 IST" name="Test_FilterBy_Searching_valid_Brands" finished-at="2023-03-17T14:22:06 IST" duration-ms="1337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_FilterBy_Searching_valid_Brands -->
+        <test-method signature="testCUSTOMER_RATINGS()[pri:3, instance:ActualtestCases.Data_From_Locators@f9879ac]" started-at="2023-03-17T14:22:06 IST" name="testCUSTOMER_RATINGS" finished-at="2023-03-17T14:22:06 IST" duration-ms="792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCUSTOMER_RATINGS -->
+        <test-method signature="RemoveRating()[pri:4, instance:ActualtestCases.Data_From_Locators@f9879ac]" started-at="2023-03-17T14:22:06 IST" name="RemoveRating" finished-at="2023-03-17T14:22:07 IST" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveRating -->
+        <test-method signature="ProductTest()[pri:5, instance:ActualtestCases.Data_From_Locators@f9879ac]" started-at="2023-03-17T14:22:07 IST" name="ProductTest" finished-at="2023-03-17T14:22:09 IST" duration-ms="2385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductTest -->
+      </class> <!-- ActualtestCases.Data_From_Locators -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

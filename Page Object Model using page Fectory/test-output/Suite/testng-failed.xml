@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="invalidBrand_Name" value="jbcwkjn"/>
+    <parameter name="price_forSecond_Priyority" value="15000"/>
+    <parameter name="Price" value="20000"/>
+    <parameter name="Product_Name" value="Android Mobile"/>
+    <parameter name="ValidBrand_Name" value="POCO"/>
+    <parameter name="Rating_Number" value="4"/>
+    <classes>
+      <class name="ActualtestCases.Data_From_Locators">
+        <methods>
+          <include name="close"/>
+          <include name="test_FilterBy_Money" invocation-numbers="0"/>
+          <include name="testCUSTOMER_RATINGS" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ActualtestCases.Data_From_Locators -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

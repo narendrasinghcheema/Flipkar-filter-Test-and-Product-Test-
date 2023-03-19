@@ -17,6 +17,7 @@ import SiteLocaotrs.Page_Locators;
 
 public class Data_From_Locators {
 
+	
 	Check_for_Product obj4;
 	Page_Locators obj;
 	Custmer_ratings obj3;
@@ -82,10 +83,16 @@ public class Data_From_Locators {
 	}
 	
 	@Test(priority = 5)
-	public void ProductTest()
+	public void forstProductTest()
 	{
 		obj4 = PageFactory.initElements(driver, Check_for_Product.class);
-		obj4.Select_on_Perticullar_Product("SAMSUNG Galaxy F13 (Waterfall Blue, 64 GB)");
+		obj4.Select_on_Perticullar_Product("SAMSUNG Galaxy F13 (Waterfall Blue, 64 GB)");	
+	}
+	
+	@Test(priority = 6)
+	public void Secondnd_ProductVerify_Price()
+	{
+		obj4.Select_for_another_Product("SAMSUNG Galaxy F13 (Waterfall Blue, 128 GB)");
 		
 	}
 }

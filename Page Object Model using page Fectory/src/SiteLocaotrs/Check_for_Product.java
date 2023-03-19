@@ -61,5 +61,39 @@ public class Check_for_Product {
 		{
 			System.out.println(Product_Name+" = this  product is not under 15000");
 		}
+		driver.switchTo().window(Parent);
 	}
+	
+	public void Select_for_another_Product(String productName)
+	{
+		String parent = driver.getWindowHandle();
+		String xpathexpressionfor_SecondProduct = String.format("//div[contains(@class,'_4rR01T') and contains(text(),'%s')]", productName);
+		WebElement product = driver.findElement(By.xpath(xpathexpressionfor_SecondProduct));
+		product.click();
+		
+		Set<String> l3 = driver.getWindowHandles();
+		Iterator<String> l4 = l3.iterator();
+		
+		while(l4.hasNext())
+		{
+			String child = l4.next();
+			if(!parent.equals(child))
+			{
+				WebDriver win =  driver.switchTo().window(child);
+				System.out.println("second product page tital is = "+win.getTitle());
+			}
+		}
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		int price2 = Integer.parseInt(Product_Price.getText().replaceAll("[^0-9]", ""));
+		
+		if(price2 < 15000 )
+		{
+			System.out.println(productName+" = this product is under 15000 and the product prize is = "+price2+" Rupees");
+		}else if(price2 > 15000)
+		{
+			System.out.println(productName+" = this  product is above  15000 and the price is = "+price2);
+		}
+		
+	}
+	
 }

@@ -5,9 +5,8 @@
     <classes>
       <class name="ActualtestCases.Data_From_Locators">
         <methods>
+          <include name="forstProductTest"/>
           <include name="test_FilterBy_Money"/>
-          <include name="RemoveRating"/>
-          <include name="testCUSTOMER_RATINGS"/>
         </methods>
       </class> <!-- ActualtestCases.Data_From_Locators -->
     </classes>
